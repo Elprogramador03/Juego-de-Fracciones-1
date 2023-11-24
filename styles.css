@@ -1,0 +1,95 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f7f8;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #e74c3c;
+}
+
+#question-container {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+#fraction-image {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+#options-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.option {
+  margin: 12px;
+  padding: 14px 28px;
+  font-size: 18px;
+  border: 2px solid #f39c12;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #f39c12;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.option:hover {
+  background-color: #f39c12;
+  color: #fff;
+  transform: scale(1.08);
+}
+
+.stats-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.stat-box {
+  width: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#timer-box {
+  background-color: #f39c12; /* Color para el cronómetro */
+}
+
+#score-box {
+  background-color: #3498db; /* Color para el puntaje */
+}
+
+#correct-answers-box {
+  background-color: #2ecc71; /* Color para respuestas correctas */
+}
+
+.stat-label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}

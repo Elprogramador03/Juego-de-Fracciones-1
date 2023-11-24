@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Juego de Fracciones</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Juego de Fracciones</h1>
+    <h2>¡Diviértete con las Fracciones!</h2> <!-- Nuevo título -->
+    <div id="question-container">
+      <img id="fraction-image" src="ruta/imagen.png" alt="Fracción a Identificar">
+      <div id="options-container">
+        <button class="option">Respuesta 1</button>
+        <button class="option">Respuesta 2</button>
+        <button class="option">Respuesta 3</button>
+        <button class="option">Respuesta 4</button>
+      </div>
+    </div>
+    <div class="stats-wrapper">
+      <div class="stat-box" id="timer-box">
+        <p class="stat-label">Cronómetro</p>
+        <span id="timer">0:00</span>
+      </div>
+      <div class="stat-box" id="score-box">
+        <p class="stat-label">Puntaje</p>
+        <span id="score">0</span>
+      </div>
+      <div class="stat-box" id="correct-answers-box">
+        <p class="stat-label">Respuestas correctas</p>
+        <span id="correct-answers">0</span>
+      </div>
+    </div>
+    <button id="next-btn" style="display: none;">Siguiente</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
